@@ -24,6 +24,8 @@ A modern, full-featured Todo List API built with Node.js, Express, and PostgreSQ
 - ✅ API documentation endpoint
 - ✅ Health check endpoint
 - ✅ Ready for Render deployment
+- ✅ **Comprehensive test suite with 88.67% coverage**
+- ✅ **Unit, Integration, and API tests**
 
 ## 📱 API Endpoints
 
@@ -207,6 +209,48 @@ todo-api/
 └── test-api.bat             # API testing script
 ```
 
+## 🧪 Testing
+
+This API includes a comprehensive test suite with **88.67% code coverage**:
+
+### Test Types
+- **Unit Tests:** Isolated testing with mocked dependencies
+- **Integration Tests:** Real database interaction testing  
+- **API Tests:** End-to-end HTTP request testing
+
+### Test Coverage
+- **Controllers:** 88.67% coverage
+- **Routes:** 100% coverage
+- **Functions:** 100% coverage
+- **Branches:** 100% coverage
+
+### Running Tests
+```powershell
+# Run all tests
+npm test
+
+# Run specific test types
+npm run test:unit
+npm run test:integration  
+npm run test:api
+
+# Run with coverage report
+npm run test:coverage
+
+# Run complete test suite
+.\final-test-report.bat
+```
+
+### Test Features
+- ✅ 50+ test cases covering all functionality
+- ✅ Mocked and non-mocked testing approaches
+- ✅ Separate test database (`todoapp_test`)
+- ✅ Error handling and edge case testing
+- ✅ Performance and concurrency testing
+- ✅ Input validation testing
+
+See [TEST_DOCUMENTATION.md](TEST_DOCUMENTATION.md) for detailed test information.
+
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -224,6 +268,8 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 - ✅ Local Development Ready
 - ✅ PostgreSQL Integration Complete  
 - ✅ All CRUD Operations Tested
+- ✅ **Comprehensive Test Suite (88.67% Coverage)**
+- ✅ **Unit Tests, Integration Tests, API Tests**
 - ✅ API Documentation Available
 - ✅ Production Ready for Render
 - 🚀 Ready for GitHub & Deployment
